@@ -1,0 +1,36 @@
+.nav {
+  padding: 10px;
+  ul {
+    li {
+      float: left;
+      width: 33.33%;
+    }
+  }
+}
+
+.product {
+  padding: 10px;
+  .item {
+    margin-bottom: 20px;
+    float: left;
+    width: 48%;
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    &:nth-child(even) {
+      margin-left: 4%;
+    }
+
+    img {
+      width: 130px;
+      height: 130px;
+    }
+
+    .price {
+      color: red;
+    }
+    .oldPrice {
+      text-decoration: line-through;
+    }
+  }
+}

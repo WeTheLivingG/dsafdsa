@@ -1,0 +1,90 @@
+html,
+body {
+  height: 100%;
+}
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+img {
+  display: block;
+  width: 100%;
+}
+.lt_container {
+  // 全屏容器
+  width: 100%;
+  max-width: 640px;
+  min-width: 320px;
+  height: 100%;
+  margin: 0 auto;
+  background-color: #fff;
+  overflow: hidden;
+  position: relative;
+}
+
+.lt_header {
+  height: 45px;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  background-color: #069;
+  display: flex;
+  .icon_left,
+  .icon_right {
+    width: 45px;
+    text-align: center;
+    line-height: 45px;
+    color: #fff;
+  }
+  .title {
+    flex: 1;
+    h4 {
+      color: #fff;
+      text-align: center;
+      line-height: 45px;
+      margin: 0;
+    }
+  }
+}
+
+.lt_footer {
+  height: 55px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  background-color: #069;
+  ul {
+    display: flex;
+    li {
+      flex: 1;
+      text-align: center;
+      padding-top: 5px;
+      &.now {
+        a {
+          color: orange;
+          p {
+            color: orange;
+          }
+        }
+      }
+      a {
+        color: #fff;
+        span {
+          font-size: 20px;
+        }
+        p {
+          color: #fff;
+        }
+      }
+    }
+  }
+}
+
+.lt_main {
+  position: absolute;
+  width: 100%;
+  top: 45px;
+  bottom: 55px;
+  padding: 10px;
+}

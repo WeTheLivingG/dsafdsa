@@ -1,0 +1,40 @@
+.product-top {
+  background-color: #eee;
+  display: flex;
+  height: 30px;
+  line-height: 30px;
+  li {
+    text-align: center;
+    flex: 1;
+    &.now {
+      color: orange;
+    }
+    span {
+      font-size: 12px;
+    }
+  }
+}
+.product {
+  padding: 10px;
+}
+.product .item {
+  margin-bottom: 20px;
+  float: left;
+  width: 48%;
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+.product .item:nth-child(even) {
+  margin-left: 4%;
+}
+.product .item img {
+  width: 130px;
+  height: 130px;
+}
+.product .item .price {
+  color: red;
+}
+.product .item .oldPrice {
+  text-decoration: line-through;
+}

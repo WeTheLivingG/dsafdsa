@@ -1,0 +1,27 @@
+.introduce .price {
+  color: red;
+}
+.introduce .old-price {
+  color: #eee;
+  font-size: 12px;
+  text-decoration: line-through;
+}
+.introduce .size {
+  border: 1px solid #eee;
+  padding: 5px;
+  font-size: 14px;
+  line-height: 35px;
+}
+.introduce .residue {
+  color: #eee;
+  font-size: 12px;
+}
+.car_footer {
+  width: 100%;
+  height: 60px;
+  position: absolute;
+  bottom: 0px;
+  border-top: 2px solid red;
+  background-color: #eee;
+  padding: 15px 10px;
+}
